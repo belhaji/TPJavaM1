@@ -1,4 +1,4 @@
-package fr.idmc.m1.csv;
+package fr.idmc.m1.exo2;
 
 import org.apache.commons.cli.*;
 import org.apache.commons.csv.CSVFormat;
@@ -10,9 +10,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
 
-public class App1
+public class App2
 {
-    public static final Logger LOG = Logger.getLogger(App1.class.getSimpleName());
+    public static final Logger LOG = Logger.getLogger(App2.class.getSimpleName());
 
     public static void main(String[] args)
     {
@@ -30,7 +30,7 @@ public class App1
                 if (!Files.exists(Paths.get(filename)))
                 {
                     System.out.println(filename + ": No such file");
-                    formatter.printHelp("App1", options);
+                    formatter.printHelp("App2", options);
                     System.exit(100);
                 }
                 try
@@ -39,7 +39,7 @@ public class App1
                                                       Charset.defaultCharset(),
                                                       CSVFormat.newFormat(';')
                                                           .withCommentMarker('#'));
-                    parse.getRecords().forEach(r -> System.out.printf("Hello : %s %s%n", r.get(0), r.get(1)));
+                    parse.getRecords().forEach(r -> System.out.printf("App1 : %s %s%n", r.get(0), r.get(1)));
                     parse.close();
                 }
                 catch (IOException e)
@@ -49,7 +49,7 @@ public class App1
             }
             else
             {
-                formatter.printHelp("App1", options);
+                formatter.printHelp("App2", options);
                 System.exit(12);
             }
         }

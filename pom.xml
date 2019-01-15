@@ -64,11 +64,11 @@
                     <assembleDirectory>${project.basedir}/bindist</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>fr.idmc.m1.Hello</mainClass>
+                            <mainClass>fr.idmc.m1.hello.Hello</mainClass>
                             <id>hello</id>
                         </program>
                         <program>
-                            <mainClass>fr.idmc.m1.App1</mainClass>
+                            <mainClass>fr.idmc.m1.csv.App1</mainClass>
                             <id>app1</id>
                         </program>
                     </programs>

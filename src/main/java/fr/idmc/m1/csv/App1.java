@@ -1,4 +1,4 @@
-package fr.idmc.m1;
+package fr.idmc.m1.csv;
 
 import org.apache.commons.cli.*;
 import org.apache.commons.csv.CSVFormat;
@@ -7,7 +7,6 @@ import org.apache.commons.csv.CSVParser;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.logging.Logger;
 

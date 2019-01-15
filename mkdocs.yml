@@ -1,0 +1,6 @@
+site_name: PooJavaDocs
+theme: readthedocs
+nav:
+  - Home: index.md
+  - Test: test.md
+

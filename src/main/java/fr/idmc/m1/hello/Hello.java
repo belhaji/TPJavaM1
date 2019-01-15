@@ -1,4 +1,4 @@
-package fr.idmc.m1;
+package fr.idmc.m1.hello;
 
 public class Hello
 {

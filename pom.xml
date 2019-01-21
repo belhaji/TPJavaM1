@@ -77,12 +77,16 @@
                             <id>app2</id>
                         </program>
                         <program>
-                            <mainClass>fr.idmc.m1.exo3.App</mainClass>
+                            <mainClass>fr.idmc.m1.exo3.App3</mainClass>
                             <id>app3</id>
                         </program>
                         <program>
-                            <mainClass>fr.idmc.m1.exo3.AppFxCode</mainClass>
-                            <id>appFxCode3</id>
+                            <mainClass>fr.idmc.m1.exo3.App3FxCode</mainClass>
+                            <id>app3fxcode</id>
+                        </program>
+                        <program>
+                            <mainClass>fr.idmc.m1.exo4.App4</mainClass>
+                            <id>app4</id>
                         </program>
                     </programs>
                 </configuration>
